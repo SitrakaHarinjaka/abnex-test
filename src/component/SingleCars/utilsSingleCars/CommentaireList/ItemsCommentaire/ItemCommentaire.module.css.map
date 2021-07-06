@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AC4BA,+BAA+B;AD1B/B,AAAA,UAAU,CAAA;EACN,gBAAgB,ECCN,IAAI;EDAd,MAAM,ECwDF,IAAI,CDxDO,CAAC;EAChB,OAAO,ECuDH,IAAI,CAGD,IAAI;EDzDX,aAAa,EC2DR,GAAG;ED1DR,UAAU,EAAE,CAAC,CCsDJ,GAAG,CAvCF,IAAI,CAHA,qBAAO;CDHxB;;AAdD,AAMI,UANM,CAMN,IAAI,CAAA;EACA,IAAI,EAAE,GAAG,CAAC,IAAI,CAAC,IAAI,CCkEhB,WAAW;EDjEd,KAAK,ECTG,OAAO;CDUlB;;AATL,AAUI,UAVM,CAUN,CAAC,CAAA;EACG,IAAI,EAAE,GAAG,CAAC,IAAI,CAAC,IAAI,CC8DhB,WAAW;ED7Dd,KAAK,ECXC,OAAO;CDYhB",
+    "sources": [
+        "ItemCommentaire.module.scss",
+        "../../../../../scss/variable.module.scss"
+    ],
+    "names": [],
+    "file": "ItemCommentaire.module.css"
+}

@@ -1,0 +1,20 @@
+/*** Kolsquare TRUE colors ***/
+.container {
+  background-color: #fff;
+  margin: 16px 0;
+  padding: 16px 32px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 8px 24px rgba(0, 48, 87, 0.15);
+          box-shadow: 0 8px 24px rgba(0, 48, 87, 0.15);
+}
+
+.container span {
+  font: 500 12px/18px "D-Din Exp";
+  color: #ffb300;
+}
+
+.container p {
+  font: 700 14px/21px "D-Din Exp";
+  color: #636363;
+}
+/*# sourceMappingURL=ItemCommentaire.module.css.map */

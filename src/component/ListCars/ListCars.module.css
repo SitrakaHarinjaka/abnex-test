@@ -1,0 +1,28 @@
+/*** Kolsquare TRUE colors ***/
+.listCars {
+  margin: 32px 0;
+}
+
+.listCars .itemContainer {
+  margin: auto;
+  width: 95%;
+}
+
+@media (min-width: 1024px) {
+  .listCars .itemContainer {
+    width: 960px;
+  }
+}
+
+.listCars .itemContainer a div {
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+@media (min-width: 768px) {
+  .listCars .itemContainer a:hover > div {
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
+  }
+}
+/*# sourceMappingURL=ListCars.module.css.map */

@@ -1,0 +1,26 @@
+/*** Kolsquare TRUE colors ***/
+.footer {
+  background-color: #636363;
+  padding: 16px;
+  z-index: 1000;
+}
+
+.footer .container {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .footer .container {
+    text-align: right;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer .container {
+    width: 960px;
+  }
+}
+/*# sourceMappingURL=Footer.module.css.map */

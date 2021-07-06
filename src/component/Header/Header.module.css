@@ -1,0 +1,128 @@
+/*** Kolsquare TRUE colors ***/
+.header {
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 5px 0 rgba(0, 48, 87, 0.1);
+          box-shadow: 0 3px 5px 0 rgba(0, 48, 87, 0.1);
+  margin-bottom: 16px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  padding: 8px 0;
+}
+
+@media (min-width: 420px) {
+  .header {
+    padding: 16px 0;
+  }
+}
+
+.header .logo {
+  width: 45px;
+}
+
+@media (min-width: 420px) {
+  .header .logo {
+    width: 75px;
+  }
+}
+
+.header .logo img {
+  width: 100%;
+}
+
+.header .container {
+  width: 95%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (min-width: 420px) {
+  .header .container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header .container {
+    width: 960px;
+  }
+}
+
+.header .container .image {
+  width: 50px;
+  display: none;
+  height: auto;
+}
+
+@media (min-width: 420px) {
+  .header .container .image {
+    display: block;
+  }
+}
+
+.header .container .image img {
+  border-radius: 150px;
+  width: 100%;
+}
+
+.header .navImage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .navigation ul {
+  margin: 0;
+}
+
+.header .navigation ul li {
+  display: inline;
+}
+
+.header .navigation ul li a {
+  font: 700 14px/21px "D-Din Exp";
+  color: #ffb300;
+  margin-right: 16px;
+  -webkit-transition: color ease-in-out .5s;
+  transition: color ease-in-out .5s;
+}
+
+.header .navigation ul li a:hover {
+  color: #636363;
+}
+
+.header .navigation ul li button {
+  background-color: #ffb300;
+  border: none;
+  border-radius: 4px;
+  padding: 16px;
+  margin-right: 16px;
+  color: #fff;
+  font: 700 14px/21px "D-Din Exp";
+  cursor: pointer;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+.header .navigation ul li button:hover {
+  background-color: #636363;
+}
+/*# sourceMappingURL=Header.module.css.map */

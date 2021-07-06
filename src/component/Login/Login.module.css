@@ -1,0 +1,106 @@
+/*** Kolsquare TRUE colors ***/
+.back {
+  background: -webkit-gradient(linear, left top, right top, from(#f9b301), to(#e48181));
+  background: linear-gradient(90deg, #f9b301, #e48181);
+}
+
+.containerLogin {
+  height: calc(100vh - 135px);
+  min-height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.containerLogin .contentFormulaire {
+  margin: auto;
+  padding: 16px 32px 32px;
+  border-radius: 4px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 8px 24px rgba(0, 48, 87, 0.15);
+          box-shadow: 0 8px 24px rgba(0, 48, 87, 0.15);
+  width: 95%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .containerLogin .contentFormulaire {
+    padding: 32px 100px 64px;
+    width: 640px;
+  }
+}
+
+.containerLogin .contentFormulaire .formulaire h3 {
+  color: #ffb300;
+  font: 700 32px/48px "D-Din Exp";
+  text-align: center;
+}
+
+.containerLogin .contentFormulaire .formulaire input {
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  border: solid 1px #c1c1c1;
+  font: 700 14px/21px "D-Din Exp";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  color: #636363;
+}
+
+.containerLogin .contentFormulaire .formulaire input::-webkit-input-placeholder {
+  color: #c1c1c1;
+}
+
+.containerLogin .contentFormulaire .formulaire input:-ms-input-placeholder {
+  color: #c1c1c1;
+}
+
+.containerLogin .contentFormulaire .formulaire input::-ms-input-placeholder {
+  color: #c1c1c1;
+}
+
+.containerLogin .contentFormulaire .formulaire input::placeholder {
+  color: #c1c1c1;
+}
+
+.containerLogin .contentFormulaire .formulaire .submitButton {
+  text-align: right;
+}
+
+.containerLogin .contentFormulaire .formulaire .submitButton a {
+  font: 700 14px/21px "D-Din Exp";
+  color: #ffb300;
+  margin-right: 16px;
+  -webkit-transition: color ease-in-out .5s;
+  transition: color ease-in-out .5s;
+}
+
+.containerLogin .contentFormulaire .formulaire .submitButton a:hover {
+  color: #636363;
+}
+
+.containerLogin .contentFormulaire .formulaire .submitButton button {
+  background-color: #ffb300;
+  border: none;
+  border-radius: 4px;
+  padding: 16px 64px;
+  color: #fff;
+  font: 700 14px/21px "D-Din Exp";
+  cursor: pointer;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+.containerLogin .contentFormulaire .formulaire .submitButton button:hover {
+  background-color: #636363;
+}
+/*# sourceMappingURL=Login.module.css.map */

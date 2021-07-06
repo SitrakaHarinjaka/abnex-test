@@ -1,0 +1,341 @@
+/*** Kolsquare TRUE colors ***/
+.singleCar {
+  width: 95%;
+  margin: 16px auto;
+}
+
+@media (min-width: 1024px) {
+  .singleCar {
+    width: 960px;
+  }
+}
+
+.containerNotConnected {
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 24px auto 0;
+  background: #fff;
+  -webkit-box-shadow: 0 8px 24px rgba(0, 48, 87, 0.15);
+          box-shadow: 0 8px 24px rgba(0, 48, 87, 0.15);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 32px 64px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .containerNotConnected {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media (min-width: 1024px) {
+  .containerNotConnected {
+    width: 960px;
+  }
+}
+
+.containerNotConnected .button {
+  margin-top: 32px;
+}
+
+@media (min-width: 768px) {
+  .containerNotConnected .button {
+    margin: 0;
+  }
+}
+
+.containerNotConnected .button a {
+  background-color: #ffb300;
+  border: none;
+  border-radius: 4px;
+  padding: 16px;
+  margin-right: 16px;
+  color: #fff;
+  font: 700 14px/21px "D-Din Exp";
+  cursor: pointer;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.containerNotConnected .button a:hover {
+  background-color: #636363;
+}
+
+.item {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 24px auto 0;
+  background: #ffffff;
+  -webkit-box-shadow: 0 8px 24px rgba(0, 48, 87, 0.15);
+          box-shadow: 0 8px 24px rgba(0, 48, 87, 0.15);
+  border-radius: 4px;
+  position: relative;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 16px 24px 16px 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.item .ctaContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.item .ctaContainer .ctaAudio,
+.item .ctaContainer .ctaPodcast {
+  margin-left: 8px;
+}
+
+.item.noThumb {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (min-width: 560px) {
+  .item.noThumb {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (min-width: 560px) {
+  .item {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.item .typeContentRose {
+  color: #ff729f;
+}
+
+.item .typeContentBlue {
+  color: #33d6ff;
+}
+
+.item h3,
+.item .typeContentRose,
+.item .typeContentBlue {
+  font-style: normal;
+  font: 700 16px/24px "D-Din Exp";
+  text-transform: uppercase;
+}
+
+@media (min-width: 560px) {
+  .item h3,
+  .item .typeContentRose,
+  .item .typeContentBlue {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .item h3,
+  .item .typeContentRose,
+  .item .typeContentBlue {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+.item p {
+  font-size: 14px;
+  line-height: 21px;
+  width: 100%;
+  min-width: 100%;
+}
+
+.itemBody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (min-width: 1280px) {
+  .itemBody {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.buttonContent {
+  padding: 16px 0;
+}
+
+.imageVideoContainer {
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 560px) {
+  .imageVideoContainer {
+    width: 100%;
+    margin-right: 32px;
+  }
+}
+
+@media (min-width: 768px) {
+  .imageVideoContainer {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .imageVideoContainer {
+    width: 20%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .imageVideoContainer {
+    width: 20%;
+  }
+}
+
+.imageVideoContainer .imageVideo {
+  margin: 16px 0;
+}
+
+@media (min-width: 560px) {
+  .imageVideoContainer .imageVideo {
+    margin-top: 0;
+  }
+}
+
+.imageVideoContainer .imageVideo img {
+  width: 100%;
+  min-height: auto;
+  border-radius: 4px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-box-shadow: 0 4px 12px 0 rgba(0, 48, 87, 0.05);
+          box-shadow: 0 4px 12px 0 rgba(0, 48, 87, 0.05);
+}
+
+.textContent {
+  width: 100%;
+}
+
+@media (min-width: 560px) {
+  .textContent {
+    width: 78%;
+    margin-right: 32px;
+  }
+}
+
+.contentAudio {
+  margin-top: 16px;
+}
+
+.author {
+  font-weight: 500;
+  opacity: 0.4;
+}
+
+.itemCta {
+  text-decoration: none;
+}
+
+.itemCta > span {
+  padding: 0 16px;
+}
+
+.itemCta--disabled {
+  left: 0;
+  -webkit-transform: none;
+          transform: none;
+  bottom: 0;
+  width: 100%;
+  background-color: #009FDB;
+  border-radius: 0 0 4px 4px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.itemImage {
+  width: 100%;
+  text-align: center;
+}
+
+.itemImage img {
+  width: 80%;
+  height: auto;
+}
+
+@media (max-width: 1023px) {
+  .itemImage {
+    margin-top: 8px;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=SingleCars.module.css.map */

@@ -1,0 +1,24 @@
+@import '../../scss/variable.module.scss';
+.listCars{
+    margin: $bigSpace 0;
+    .itemContainer{
+        margin: auto;
+        width:95%;
+        @media(min-width:$l){
+            width: $max-width;
+        }
+        a{
+            div{
+                transition: .3s ease-in-out;
+            }
+            @media(min-width: $m){
+                &:hover{
+                    > div{
+                        transform: scale(1.03)
+                        
+                    }
+                }
+            }
+        }
+    }
+}
